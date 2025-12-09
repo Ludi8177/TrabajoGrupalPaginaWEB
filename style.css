@@ -1,0 +1,50 @@
+.menu1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 12dvh;
+    width: 100%;
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-shadow: 0 1px 10px 0px #b8b8b8;
+    background-color: rgb(7, 53, 138);
+}
+
+.titulo{
+    display: flex;
+    width: 7%;
+    height: 9dvh;
+    flex-direction: column;
+    padding-left: 1%;
+    padding-bottom: 0.43%;
+    color: white;
+    font-size: 26px;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+img{
+    display: flex;
+    padding-left: 0.7%;
+}
+
+.color{
+    color: rgb(37, 180, 8);
+}
+
+.boton{
+    background-color: rgb(93, 167, 160);
+    color: white;
+    padding: 0.4em 0.6em;
+    border-radius: 15px;
+    font-size: x-large;
+    border: none;
+}
+
+.separacionboton{
+    display: flex;
+    padding-left: 67%;
+}

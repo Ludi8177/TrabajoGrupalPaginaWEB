@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FPI | Solicitud</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="pagina-formulario">
+  <header class="encabezado">
+    <div class="contenedor fila-encabezado">
+      <a class="logo" href="index.html">
+        <img src="Imagenes/Logo.png" alt="Logo FPI" />
+        <div>FPI<br><small>Formación Profesional</small></div>
+      </a>
+      <div class="botones-menu">
+        <a class="boton boton-secundario" href="index.html">Inicio</a>
+        <a class="boton boton-verde" href="formulario.html">Solicitar información</a>
+        <a class="boton boton-primario" href="oferta.html">Grados</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="envoltorio-formulario">
+    <div class="caja-formulario">
+      <div class="logo-formulario">
+        <img src="Imagenes/Logo.png" alt="FPI" />
+        <div>FPI Formación Profesional</div>
+      </div>
+      <h1>¡Infórmate gratis y sin compromiso!</h1>
+      <p>Te contactaremos por mail y teléfono para orientarte sobre la mejor opción formativa</p>
+      <form class="rejilla-formulario">
+        <label>Estudios finalizados
+          <select required>
+            <option value="" disabled selected>Elige una opción</option>
+            <option>ESO</option>
+            <option>Bachillerato</option>
+            <option>FP Grado Medio</option>
+            <option>FP Grado Superior</option>
+          </select>
+        </label>
+        <label>Tipo de estudios
+          <select required>
+            <option value="" disabled selected>Grado medio / superior</option>
+            <option>Grado Medio</option>
+            <option>Grado Superior</option>
+          </select>
+        </label>
+        <label>Modalidad
+          <select required>
+            <option value="" disabled selected>Presencial / online</option>
+            <option>Presencial</option>
+            <option>Online</option>
+            <option>Híbrido</option>
+          </select>
+        </label>
+        <label>Nombre
+          <input type="text" placeholder="Nombre" required />
+        </label>
+        <label>Apellido
+          <input type="text" placeholder="Apellido" required />
+        </label>
+        <label>Ciudad
+          <input type="text" placeholder="Ciudad" />
+        </label>
+        <label>Provincia
+          <input type="text" placeholder="Provincia" />
+        </label>
+        <label>Teléfono
+          <input type="tel" placeholder="Teléfono" required />
+        </label>
+        <label>Email
+          <input type="email" placeholder="Email" required />
+        </label>
+        <label class="boton casilla">
+          <input type="checkbox" required />
+          <span>Acepto las condiciones</span>
+        </label>
+        <label class="boton casilla">
+          <input type="checkbox" required />
+          <span>Acepto la política de privacidad</span>
+        </label>
+        <button class="boton boton-primario" type="submit">Enviar solicitud</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="pie" id="contacto">
+    <div class="contenedor rejilla-pie">
+      <div class="columna-pie logo">
+        <img src="Imagenes/Logo.png" alt="FPI" />
+        <div>FPI<br>Formación Profesional</div>
+      </div>
+      <div class="columna-pie">
+        <span>Centro homologado</span>
+        <div class="logos-pie">
+          <img src="Imagenes/MinisterioEducacion.png" alt="Ministerio de Educación" />
+          <img src="Imagenes/ConsejeriaEducacion_Madrid.png" alt="Consejería de Educación" />
+        </div>
+      </div>
+      <div class="columna-pie">
+        <span>Atención al alumnado</span>
+        <span class="dato-linea"><img src="Imagenes/Icons/Icon_telefono.png" alt="Teléfono" />971 077 123</span>
+        <span class="dato-linea"><img src="Imagenes/Icons/Icon_correo.png" alt="Correo" />secretaria@fpi.com</span>
+        <span class="dato-linea"><img src="Imagenes/Icons/Icon_correo.png" alt="Correo" />secretaria@fpob.net</span>
+        <span class="dato-linea"><img src="Imagenes/Icons/Icon_direccion.png" alt="Dirección" />Carrer Gabriel Alomar, 1. Palma</span>
+      </div>
+      <div class="columna-pie">
+        <span>Redes</span>
+        <div class="redes">
+          <img src="Imagenes/Icons/Icon_RedesSociales/Icon_Twitter.png" alt="Twitter" />
+          <img src="Imagenes/Icons/Icon_RedesSociales/Icon_Instagram.png" alt="Instagram" />
+          <img src="Imagenes/Icons/Icon_RedesSociales/Icon_Linkedin.png" alt="LinkedIn" />
+          <img src="Imagenes/Icons/Icon_RedesSociales/Icon_Youtube.png" alt="YouTube" />
+        </div>
+        <span class="nota-pie">Horario de atención: L-V 10:00-19:30</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

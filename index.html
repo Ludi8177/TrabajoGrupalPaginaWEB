@@ -1,29 +1,159 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="css/style.css">
-    <script src="js/app.js"></script>
-    <title>FP Ideal</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FPI | Formación Profesional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="menu1">
-       <img src="img/logo.png" width="90" height="90"></img>
-       <div class="titulo">Formación<br>Profesional<br><div class="color">Ideal</div></div>
-       <a href="index.html">Inicio</a>
-       <a href="">Grados</a>
-       <div class="separacionboton"><button class="boton">Solicitar información</button></div>
+  <header class="encabezado">
+    <div class="contenedor fila-encabezado">
+      <a class="logo" href="index.html">
+        <img src="Imagenes/Logo.png" alt="Logo FPI" />
+        <div>FPI<br><small>Formación Profesional</small></div>
+      </a>
+      <div class="botones-menu">
+        <a class="boton boton-secundario" href="index.html">Inicio</a>
+        <a class="boton boton-verde" href="formulario.html">Solicitar información</a>
+        <a class="boton boton-primario" href="oferta.html">Grados</a>
+      </div>
     </div>
+  </header>
 
-    <div class="portada">
-        <img src="img/portada.jpg" width=90%>
+  <main>
+    <section class="portada" id="inicio">
+      <div class="contenedor">
+        <div class="texto-portada">
+          <span class="etiqueta">Admisiones abiertas</span>
+          <h1>Tu centro de Formación Profesional Oficial</h1>
+          <p class="resumen">Especialidades punteras con orientación internacional y digital.</p>
+          <ul class="lista-puntos">
+            <li>Abierta la matrícula para el curso 2025/26</li>
+            <li>La formación que hoy demanda el mercado laboral</li>
+            <li>60/80% de contenidos prácticos según ciclo y modalidad</li>
+          </ul>
+          <div class="acciones-portada">
+            <a class="boton boton-verde" href="formulario.html">Solicita tu plaza</a>
+            <a class="boton boton-secundario" href="oferta.html">Simulador FPI FP</a>
+          </div>
+          <div class="contacto-portada">
+            <span>976 077 123</span>
+            <span>secretaria@fpi.com</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="seccion" id="experiencias">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Experiencias de nuestros estudiantes</h2>
+        <div class="rejilla-tarjetas">
+          <article class="tarjeta">
+            <div class="avatar"><img src="Imagenes/Alumnos/Boric.png" alt="Fernando García" /></div>
+            <p class="nombre">Fernando García</p>
+            <p class="rol">1º Comercio Internacional</p>
+            <p class="cita">“Agradecer a los profesores por la calidad de enseñanza brindada”</p>
+          </article>
+          <article class="tarjeta">
+            <div class="avatar"><img src="Imagenes/Alumnos/ElonMusk.png" alt="Jorge Velasco" /></div>
+            <p class="nombre">Jorge Velasco</p>
+            <p class="rol">1º Administración y finanzas</p>
+            <p class="cita">“Todo el equipo se preocupan mucho de los estudiantes”</p>
+          </article>
+          <article class="tarjeta">
+            <div class="avatar"><img src="Imagenes/Alumnos/MarioVargasLlosa.png" alt="Javier Luri" /></div>
+            <p class="nombre">Javier Luri</p>
+            <p class="rol">2º Desarrollo de aplicaciones web</p>
+            <p class="cita">“Me está encantando cómo desarrollamos lo aprendido”</p>
+          </article>
+          <article class="tarjeta">
+            <div class="avatar"><img src="Imagenes/Alumnos/Boric.png" alt="Lars Trigo" /></div>
+            <p class="nombre">Lars Trigo</p>
+            <p class="rol">2º Higiene bucodental</p>
+            <p class="cita">“La formación es muy práctica y útil para el futuro”</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section class="seccion" id="docentes">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Equipo docente</h2>
+        <div class="rejilla-tarjetas">
+          <article class="tarjeta">
+            <div class="avatar"><img src="Imagenes/Docentes/JeffBezos.png" alt="Alberto Alonso" /></div>
+            <p class="nombre">Alberto Alonso</p>
+            <p class="rol">IAW y programas de gestión</p>
+          </article>
+          <article class="tarjeta">
+            <div class="avatar"><img src="Imagenes/Docentes/JackMa.png" alt="David Jaime" /></div>
+            <p class="nombre">David Jaime</p>
+            <p class="rol">Servicios web y digitalización</p>
+          </article>
+          <article class="tarjeta">
+            <div class="avatar"><img src="Imagenes/Docentes/ChangpengZhao.png" alt="Pablo García" /></div>
+            <p class="nombre">Pablo García</p>
+            <p class="rol">Empresa e iniciativa emprendedora</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section class="seccion" id="donde-estamos">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Dónde estamos</h2>
+        <div class="ubicacion">
+          <div class="mapa">
+            <img src="Imagenes/Mapa.png" alt="Mapa de ubicación" />
+          </div>
+          <div class="info-ubicacion">
+            <h3>Dirección</h3>
+            <p class="dato-linea"><img src="Imagenes/Icons/Icon_direccion.png" alt="Dirección" />C/ Sant Lluís 120, 3º, Illes Balears</p>
+            <p class="dato-linea"><img src="Imagenes/Icons/Icon_telefono.png" alt="Teléfono" />+34 678 383 527</p>
+            <p class="dato-linea"><img src="Imagenes/Icons/Icon_correo.png" alt="Correo" />secretariado@fpi.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-
+  <footer class="pie" id="contacto">
+    <div class="contenedor rejilla-pie">
+      <div class="columna-pie logo">
+        <img src="Imagenes/Logo.png" alt="FPI" />
+        <div>FPI<br>Formación Profesional</div>
+      </div>
+      <div class="columna-pie">
+        <span>Centro homologado</span>
+        <div class="logos-pie">
+          <img src="Imagenes/MinisterioEducacion.png" alt="Ministerio de Educación" />
+          <img src="Imagenes/ConsejeriaEducacion_Madrid.png" alt="Consejería de Educación" />
+        </div>
+      </div>
+      <div class="columna-pie">
+        <span>Atención al alumnado</span>
+        <span class="dato-linea"><img src="Imagenes/Icons/Icon_telefono.png" alt="Teléfono" />971 077 123</span>
+        <span class="dato-linea"><img src="Imagenes/Icons/Icon_correo.png" alt="Correo" />secretaria@fpi.com</span>
+        <span class="dato-linea"><img src="Imagenes/Icons/Icon_correo.png" alt="Correo" />secretaria@fpob.net</span>
+        <span class="dato-linea"><img src="Imagenes/Icons/Icon_direccion.png" alt="Dirección" />Carrer Gabriel Alomar, 1. Palma</span>
+      </div>
+      <div class="columna-pie">
+        <span>Redes</span>
+        <div class="redes">
+          <img src="Imagenes/Icons/Icon_RedesSociales/Icon_Twitter.png" alt="Twitter" />
+          <img src="Imagenes/Icons/Icon_RedesSociales/Icon_Instagram.png" alt="Instagram" />
+          <img src="Imagenes/Icons/Icon_RedesSociales/Icon_Linkedin.png" alt="LinkedIn" />
+          <img src="Imagenes/Icons/Icon_RedesSociales/Icon_Youtube.png" alt="YouTube" />
+        </div>
+        <span class="nota-pie">Horario de atención: L-V 10:00-19:30</span>
+      </div>
     </div>
-    
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
